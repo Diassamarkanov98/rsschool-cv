@@ -1,0 +1,224 @@
+@font-face{
+    font-family: "MullerNarrowExtraBold";
+    src:url(fonts/Fontfabric\ \ MullerNarrowExtraBold.otf) format("otf");
+    font-family: "MullerNarrowLight";
+    src:url(fonts/MullerNarrowLight.otf) format("otf");
+    font-family: "LatoRegular";
+    src:url(fonts/Lato\ regular.ttf) format("ttf")
+}
+body{
+    margin: auto; 
+}
+/* Intro */
+h1,h2{
+    margin: 0;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+/*Left content*/
+header{
+    width: 820px;
+    height: 2900px;
+    background-color: #424343;
+    padding-left:50px;
+    padding-top:136px;
+    color: white;
+}
+.cv_title{
+    height:450px;
+    padding-right: 246px;
+    padding-bottom: 115px;
+}
+.cv_title > h1{
+    font-family: MullerNarrowExtraBold, serif;
+    font-size: 80px;
+    margin:0;
+    text-align: left;
+    text-transform: uppercase;
+    color:white;
+}
+.cv_title > h2{
+    font-family: MullerNarrowLight, serif;
+    font-size: 40px;
+    color:white;
+    margin:0;
+}
+.subtitle__header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: MullerNarrowExtraBold, serif;
+    color: #4796a6;
+    padding-top:200px 
+}
+.subtitle{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: MullerNarrowExtraBold, serif;
+    color: #4796a6;
+}
+header > p{
+    width:780px;
+    font-size: 30px;
+    padding-top: 75px;
+    font-family: LatoRegular, serif;
+}
+.contact{
+    padding-top: 95px;
+    padding-bottom: 141px;
+    font-size: 30px;
+    font-family: MullerNarrowLight, serif;
+}
+.contact > div{
+    padding-top: 50px;
+}
+.contacts_content{
+    display: flex;
+    flex-direction: row;
+}
+.contacts_content > ul > li{
+    list-style-type: none;
+}
+.icons{
+    float:left;
+}
+.icons > .gps{
+    padding-right: 20px;
+}
+mark{
+    color:#4796a6;
+    font-style: italic;
+    background-color: #424343;
+}
+header > ul{
+    font-family:  MullerNarrowExtraBold, serif ;
+    list-style: none;
+    width:750px;
+    margin:60px auto;
+    color:white;
+}
+ul > li{
+    margin:20px 0;
+}
+.bar{
+    background:#4796a6;
+    display:block;
+    height: 28px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px #2c6772;
+    -webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg); 
+	-o-transform: skew(-15deg); 
+}
+.bar > span{
+    height: 28px;
+    float:left;
+    background: #2c6772;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 65%;
+}
+.java_script{
+    width: 40%;
+}
+.photoshop{
+    width:78%;
+}
+.english{
+    width: 50%;
+}
+.russian{
+    width: 100%;
+}
+.kazakh{
+    width: 85%;
+}
+/* Right content */
+.right{
+    padding-left:88px;
+}
+.title_text{
+    padding-top:130px;
+    font-size: 40px;
+}
+.title_textScr{
+    padding-top:160px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title_textSecond{
+    padding-top: 600px;  
+    font-size: 40px;
+}
+.title_textSecondScr{
+    padding-top:630px;
+}
+.education{
+    line-height: 50px;
+    font-size: 30px;
+    padding-top:34px;
+}
+aside{
+    float:right;
+    padding-right:98px;
+    color:#52a5b6
+}
+.education_title{
+    padding-top:51px;
+    font-family:  MullerNarrowExtraBold, serif ;
+    font-weight: bold;
+}    
+.education_text{
+     width:600px;
+     font-family: MullerNarrowLight, serif;  
+}
+.education > p{ 
+    color:#52a5b6
+}
+.title_textThird{
+    padding-top:200px;
+    font-size: 40px;
+}
+.title_textThirdScr{
+    padding-top:230px;
+}
+.references{
+    line-height: 50px;
+    font-size: 40px;
+    padding-top:34px;
+}
+/*Footer*/
+footer{
+    background:#4b9cac;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+    margin: 0 200px;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: MullerNarrowLight, serif;
+}
+footer > a >img{
+    padding-right: 20px;
+}
