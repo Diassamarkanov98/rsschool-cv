@@ -17,10 +17,12 @@
 
 ## Code examples
 
+```javascript
 // Change heading:
 document.getElementById("myH").innerHTML = "JavaScript Comments";
 // Change paragraph:
 document.getElementById("myP").innerHTML = "My first paragraph.";
+```
 
 ## Work experience
 No work experience, but I will strive for knowledge and higher levels of programming skill
