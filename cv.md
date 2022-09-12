@@ -38,4 +38,3 @@ No work experience, but I will strive for knowledge and higher levels of program
 ## Github account
 
 - [Github](https://github.com/Diassamarkanov98)
-
